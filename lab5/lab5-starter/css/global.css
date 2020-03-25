@@ -1,0 +1,74 @@
+/*Add the styling needed to match the mockup. Refer to the styleguide for font and color info*/
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f33947;
+}
+
+#top {
+    background-color: #39D0F2;
+    margin: 0 auto;
+    padding: 10px 1em;
+    color: #125DC0;
+    border-bottom: 8px solid #333333;
+}
+
+section {
+    background-color: #D9C35A;
+    text-align: center;
+    margin: 0px 450px;
+    padding: 50px 0px;
+    border-left: 8px solid #333333;
+    border-right: 8px solid #333333;
+}
+
+h1 {
+    margin: 0px auto;
+    padding: 0px 0;
+    font-family: 'Luckiest Guy', regular;
+    color: #125dc0;
+    background-color: #f2e85e;
+    font-size: 50px;
+}
+
+img {
+    margin: 40px 0px;
+    padding: 0px 0;
+    border: 8px solid #333333;
+    height: 100%;
+    width: 90%;
+    max-width: 50vw;
+}
+
+h2 {
+    margin: 0px auto;
+    padding: 0px 30px;
+    font-family: 'Luckiest Guy', regular;
+    color: #125dc0;
+    background-color: #f2e85e;
+    font-size: 40px;
+    text-align: left;
+}
+
+p {
+    
+    text-align: left;
+    margin: 0px auto;
+    padding: 5px 30px;
+}
+
+.important {
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+
+#bottom {
+    background-color: #39D0F2;
+    text-align: right;
+    margin: 0 auto;
+    padding: 10px 1em;
+    color: #125DC0;
+    border-top: 8px solid #333333; 
+}

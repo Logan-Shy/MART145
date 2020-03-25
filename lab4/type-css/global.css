@@ -1,0 +1,64 @@
+.container{
+	width: 750px;
+	margin: 0 auto;
+	padding: 50px 100px;
+	background-color: #E4E1D9;
+}
+
+h1 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+}
+
+body {
+	background-color: #EBCA88;
+}
+
+p {
+	font-family: 'Gelasio', serif;
+}
+
+a:link {
+	text-decoration: underline;
+	background-color: #E4E1D9;
+	color:	black;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #FFCA38;
+	color: black;
+}
+
+
+ul, ol {
+	color: black;
+	background-color: #FFFFFF;
+	text-shadow: #FFCA38 1px 0 10px;
+	text-align: center;
+	align-content: center;
+	margin: 0px auto;
+	padding: 0px 20px;
+	width: 180px;
+}
+
+blockquote {
+	color: black;
+	background-color: #ffffff;
+	text-shadow: #FFCA38 1px 0 10px;
+}
