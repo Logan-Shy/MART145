@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
+    
+
 <head>
     <link rel="stylesheet" href="../CSS/Global.css">
     <link rel="stylesheet" href="../CSS/Navigation.css">
 </head>
-<body>
     
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
 <header id="topnav">
     <div id="pages">
-        <img src="Images/crofts-accounting-logo.png" alt="crofts accounting Logo">
+        <img src="../Images/crofts-accounting-logo.png" alt="crofts accounting Logo">
         <ul>
             <li id="navitem">
-                <a href="Index.html">Home</a>
+                <a href="../Index.html">Home</a>
             </li>
             <li id="navitem">
-                <a href="HTML/about.html">About</a>
+                <a href="../HTML/about.html">About</a>
             </li>
             <li id="navitem">
-                <a href="HTML/portfolios.html">Portfolios</a>
+                <a href="../HTML/portfolios.html">Portfolios</a>
             </li>
             <div class="dropdown">
                 <button class="dropbtn">Accountants</button>
                 <div class="dropdown-content">
-                    <a href="HTML/compare.html">Compare Accountants</a>
-                    <a href="HTML/contact.html">Contact Accountant</a>
+                    <a href="../HTML/compare.html">Compare Accountants</a>
+                    <a href="../HTML/contact.html">Contact Accountant</a>
                 </div>
             </div>
         </ul>
@@ -32,26 +37,26 @@
         <ul>
             <div class="dropdown">
                 <button class="dropbtn">
-                    <img src="Images/profile.jpg" alt="profile picture">
+                    <img src="../Images/profile.png" alt="profile picture">
                 </button>
                 <div class="dropdown-content">
-                    <a href="Index.html">Log out</a>
-                    <a href="Index.html">edit profile</a>
+                    <a href="../Index.html">Log out</a>
+                    <a href="../Index.html">edit profile</a>
                 </div>
             </div>
             <li id="navitem">
-                <a href="Index.html">
-                    <img src="Images/facebook.png" alt="facebook api">
+                <a href="https://facebook.com/montanastate">
+                    <img src="../Images/facebook.png" alt="facebook api">
                 </a>
             </li>
             <li id="navitem">
-                <a href="Index.html">
-                    <img src="Images/insta.png" alt="instagram api">
+                <a href="https://instagram.com/">
+                    <img src="../Images/insta.png" alt="instagram api">
                 </a>
             </li>
             <li id="navitem">
-                <a href="Index.html">
-                    <img src="Images/twitter.png" alt="twitter api">
+                <a href="https://twitter.com/">
+                    <img src="../Images/twitter.png" alt="twitter api">
                 </a>
             </li>
         </ul>
@@ -59,15 +64,144 @@
 </header>
 
 <div id="content">
-    <h1>Logan Shy</h1>
-    <h2>Advice of the day</h2>
-    <p>
-        Don't take out a second mortgage on your house. It's usually not
-        worth the risk, and it will put you between a rock and a hard place.
-    </p>
-    <img id="burt" src="../Images/burt.jpg" alt="Burt lookin' fine in a hot tub">
+    <div id="accountant-sidebar">
+        <h1>Current Accountants</h1>
+        <div class="current-accountant">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Okay with Bird Law</li>
+                <li>4 years of experience</li>
+                <li>Can do the hokey pokey</li>
+                <li>He's just alright</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+        <div class="current-accountant">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Okay with Bird Law</li>
+                <li>4 years of experience</li>
+                <li>Can do the hokey pokey</li>
+                <li>He's just alright</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+        <div id="comparebtn">
+            <button>Compare Selected</button>
+        </div>
+    </div>
+    <div id="accountant-list">
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with Bird Law</li>
+                <li>14 years of experience</li>
+                <li>Can do the hokey pokey</li>
+                <li>Nominated cool guy of the year</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with car Law</li>
+                <li>1 years of experience</li>
+                <li>Cannot do the hokey pokey</li>
+                <li>Nominated uncool guy of the year</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with Shoe Law</li>
+                <li>104 years of experience</li>
+                <li>Shouldn't do the hokey pokey</li>
+                <li>Nominated guy</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Not good at Law</li>
+                <li>0 years of experience</li>
+                <li>Doesn't know the hokey pokey</li>
+                <li>Don't pick this guy</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with Divorce Law</li>
+                <li>5 spouses of experience</li>
+                <li>Can do the hokey pokey</li>
+                <li>Really sad guy</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with Property Law</li>
+                <li>4 years of experience</li>
+                <li>Cannot do the hokey pokey</li>
+                <li>Brings everyone coffee</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with All Law</li>
+                <li>??? years of experience</li>
+                <li>Can do all the hokey pokeys</li>
+                <li>Best Guy</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Also Good with Bird Law</li>
+                <li>3 years of experience</li>
+                <li>Could do the hokey pokey</li>
+                <li>Likes to read on the beach</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+        <div class="accountant-profile">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with Law Law</li>
+                <li>17 years of experience</li>
+                <li>Can do the hokey pokey</li>
+                <li>Once sued me and my lawyer</li>
+            </ul>
+            <button class="selectbtn">Select</button>
+        </div>
+
+    
+    </div>
+</div>
+<div id="footer">
+    <footer>
+        (c) Copyright Your Name, 2019. All rights reserved. <br>
+        This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents are either the products of the author's imagination or used in a fictitious manner. <br>
+        Any resemblance to actual persons, living or dead, or actual events is purely coincidental. <br>
+        If the text in this document actually means anything, that's a mistake too, and would actually be really weird. It's supposed to just be filler. 
+    </footer>
 </div>
 
-
 </body>
+    
 </html>
