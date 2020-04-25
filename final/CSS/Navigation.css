@@ -1,18 +1,18 @@
 /* nav items in top left corner */
-#pages #navitem {
+#pages .navitem {
     padding: 0px 10px;
     margin: 10px 0px;
     display: inline-block;
 }
 
 /*nav items in top right corner */
-#social #navitem {
+#social .navitem {
     padding: 0px 10px;
     margin: 0px 0px;
     display: inline-block;
 }
 
-#social #navitem a {
+#social .navitem a {
     color: #f2f2f2;
     text-align: center;
     margin: 0;
@@ -49,7 +49,7 @@
 }
   
 /* Style the links inside the navigation bar */
-#pages #navitem a {
+#pages .navitem a {
     color: #f2f2f2;
     text-align: center;
     margin: 0;
@@ -58,13 +58,13 @@
 }
 
 /* Change the color of links on hover */
-#pages #navitem a:hover {
+#pages .navitem a:hover {
     background-color: #ddd;
     color: black;
 }
 
 /* Add a color to the active/current link */
-#pages #navitem a:visited:active {
+#pages .navitem a:visited:active {
     background-color: #ddd;
     color: #4CAF50;
 }

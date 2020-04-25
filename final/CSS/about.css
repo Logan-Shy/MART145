@@ -1,0 +1,26 @@
+#about-box {
+    margin: 0 auto;
+    background-color: #ddd;
+    width: 85%;
+    height: 550px;
+    border: 5px solid black;
+}
+
+#Labout {
+    margin: 0 auto;
+    width: 40%;
+    float: left;
+}
+
+#Rabout {
+    margin: 0 auto;
+    width: 40%;
+    float: right;
+}
+
+#fb-plugin {
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

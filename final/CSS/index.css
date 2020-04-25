@@ -1,0 +1,39 @@
+#Lsidebar {
+    margin: 0;
+    background-color: #830CE8;
+    height: 100%;
+    width: 24%;
+    float: left;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+#Rsidebar {
+    margin: 0;
+    background-color: #FF5420;
+    height: 100%;
+    width: 24%;
+    float: right;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+#main {
+    margin: 0 auto;
+    text-align: center;
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+#main p {
+    text-align: left;
+    padding-left: 20px;
+}
+#main img {
+    border: 2px solid black;
+    height: auto;
+    width: 90%;
+    margin: 15px auto;
+}
