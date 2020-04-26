@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <link rel="stylesheet" href="../CSS/accountant.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/navigation.css">
+    <title>Compare Accountants</title>
+</head>
+    
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
+<header id="topnav">
+    <div id="pages">
+        <img src="../Images/crofts-accounting-logo.png" alt="crofts accounting Logo">
+        <ul>
+            <li class="navitem">
+                <a href="../Index.html">Home</a>
+            </li>
+            <li class="navitem">
+                <a href="../HTML/about.html">About</a>
+            </li>
+            <li class="navitem">
+                <a href="../HTML/portfolios.html">Portfolios</a>
+            </li>
+            <div class="dropdown">
+                <button class="dropbtn">Accountants</button>
+                <div class="dropdown-content">
+                    <a href="../HTML/compare.html">Compare Accountants</a>
+                    <a href="../HTML/contact.html">Contact Accountant</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div id="social">
+        <ul>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <img src="../Images/profile.png" alt="profile picture">
+                </button>
+                <div class="dropdown-content">
+                    <a href="../Index.html">Log out</a>
+                    <a href="../Index.html">edit profile</a>
+                </div>
+            </div>
+            <li class="navitem">
+                <a href="https://facebook.com/montanastate">
+                    <img src="../Images/facebook.png" alt="facebook api">
+                </a>
+            </li>
+            <li class="navitem">
+                <a href="https://instagram.com/">
+                    <img src="../Images/insta.png" alt="instagram api">
+                </a>
+            </li>
+            <li class="navitem">
+                <a href="https://twitter.com/">
+                    <img src="../Images/twitter.png" alt="twitter api">
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div id="content">
+    <h1>Contact Accountant</h1>
+    <div id="my-accountants">
+        <h2>Your Accountants</h2>
+        <div class="current-accountant">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with car Law</li>
+                <li>1 years of experience</li>
+                <li>Cannot do the hokey pokey</li>
+                <li>Nominated uncool guy of the year</li>
+            </ul>
+        </div>
+        <div class="current-accountant">
+            <img src="../Images/profile.png" alt="accountant face">
+            <ul>
+                <li>Good with shoe Law</li>
+                <li>30 years of experience</li>
+                <li>always doing the hokey pokey</li>
+                <li>Once ate a spicy pepper</li>
+            </ul>
+        </div>
+    </div>
+    <div id="account-scheduler">
+        <div id="current-appointments">
+            <h1>Current Appointments</h1>
+            <div id="appointments">
+                <div class="appointment">
+                    <p>When: March 17th, 4:15 P.M.</p>
+                    <p>Subject: Mortgage Meeting</p>
+                    <p>Accountant: Smitty</p>
+                    <p>Where: 217 N Lawyer Ave. Unit K</p>
+                    <p>Accountant Notes: Bring tax return from 2015</p>
+                    <button id="cancel-appointment">Cancel Appointment</button>
+                </div>
+                <div class="appointment">
+                    <p>When: March 25th, 3:00 P.M.</p>
+                    <p>Subject: Divorce Proceedings</p>
+                    <p>Accountant: Karl</p>
+                    <p>Where: 1131 S. Lincoln St.</p>
+                    <p>Accountant Notes: Don't forget to bring your wife</p>
+                    <button id="cancel-appointment">Cancel Appointment</button>
+                </div>
+            </div>
+        </div>
+        <div id="new-appointment">
+            <ul>
+                <li>
+                    <label for="datepicker">When</label>
+                    <input type="date" name="datepicker" class="appt-input">
+                </li>
+    
+                <li>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" class="appt-input">
+                </li>
+    
+                <li>
+                    <label for="accountant">ACCT.</label>
+                    <input type="text" name="accountant" class="appt-input">
+                </li>
+    
+                <li>
+                    <label for="where">Where</label>
+                    <input type="text" name="where" class="appt-input">
+                </li>
+    
+            </ul>
+        </div>
+        <button id="add-appointment">Add Appointment</button>
+    </div>
+</div>
+<div id="footer">
+    <footer>
+        (c) Copyright Your Name, 2019. All rights reserved. <br>
+        This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents are either the products of the author's imagination or used in a fictitious manner. <br>
+        Any resemblance to actual persons, living or dead, or actual events is purely coincidental. <br>
+        If the text in this document actually means anything, that's a mistake too, and would actually be really weird. It's supposed to just be filler. 
+    </footer>
+</div>
+
+</body>
+    
+</html>
