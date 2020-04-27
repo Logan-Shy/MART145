@@ -1,28 +1,29 @@
 
 #accountant-sidebar {
     text-align: center;
-    background-color: #830CE8;
+    background-color: #ddd;
     height: 100%;
-    width: 24%;
+    width: 24.43%;
     float: left;
     border: 5px solid black;
     border-top: none;
-    border-bottom: none;
+    border-right: none;
+    /* border-bottom: none; */
 }
 
 #accountant-list {
     margin: 0;
-    background-color: #ddd;
+    background-color: #830Ce8;
     height: 100%;
     width: 74.5%;
     float: right;
     border: 5px solid black;
     border-top: none;
-    border-bottom: none;
-    border-left: none;
+    /* border-bottom: none; */
 }
 
 .accountant-profile {
+    background-color: #ddd;
     border: 1px solid black;
     padding: 0;
     margin: 10px 23px;
@@ -62,22 +63,30 @@
     margin: 15px auto;
     background-color: #ddd;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 #my-accountants{
+    /* height: 93.75%;
+    width: 24%;
+    float: left; */
+
     text-align: center;
     background-color: #ddd;
-    height: 93.75%;
-    width: 24%;
+    height: 100%;
+    width: 24.43%;
     float: left;
+    border: 5px solid black;
+    border-top: none;
+    border-right: none;
+    /* border-bottom: none; */
 }
 
 #account-scheduler{
-    text-align: center;
+    /* text-align: center;
     margin: 0;
     background-color: #830CE8;
     height: 93.75%;
@@ -86,7 +95,17 @@
     border: 5px solid black;
     border-top: none;
     border-bottom: none;
-    border-right: none;
+    border-right: none; */
+
+    text-align: center;
+    margin: 0;
+    background-color: #830Ce8;
+    height: 100%;
+    width: 74.5%;
+    float: right;
+    border: 5px solid black;
+    border-top: none;
+    /* border-bottom: none; */
 }
 #content h1{
     background-color: #ddd;

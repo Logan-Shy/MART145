@@ -7,17 +7,19 @@
     border: 5px solid black;
     border-top: none;
     border-bottom: none;
+    list-style: armenian;
 }
 
 #Rsidebar {
     margin: 0;
-    background-color: #FF5420;
+    background-color: orange;
     height: 100%;
     width: 24%;
     float: right;
     border: 5px solid black;
     border-top: none;
     border-bottom: none;
+    list-style: armenian;
 }
 
 #main {
