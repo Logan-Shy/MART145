@@ -5,10 +5,7 @@
     height: 100%;
     width: 24.43%;
     float: left;
-    border: 5px solid black;
-    border-top: none;
-    border-right: none;
-    /* border-bottom: none; */
+    border-bottom: 5px solid black;
 }
 
 #accountant-list {
@@ -19,7 +16,6 @@
     float: right;
     border: 5px solid black;
     border-top: none;
-    /* border-bottom: none; */
 }
 
 .accountant-profile {
@@ -60,20 +56,18 @@
 
 
 #comparebtn button {
-    margin: 15px auto;
-    background-color: #ddd;
-    color: black;
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    color: #5C08A6;
+    background-color: orange;
     font-size: 16px;
-    border: none;
+    border: 1px solid black;
     border-radius: 4px;
     cursor: pointer;
 }
 
 #my-accountants{
-    /* height: 93.75%;
-    width: 24%;
-    float: left; */
-
     text-align: center;
     background-color: #ddd;
     height: 100%;
@@ -82,21 +76,9 @@
     border: 5px solid black;
     border-top: none;
     border-right: none;
-    /* border-bottom: none; */
 }
 
 #account-scheduler{
-    /* text-align: center;
-    margin: 0;
-    background-color: #830CE8;
-    height: 93.75%;
-    width: 74.8%;
-    float: right;
-    border: 5px solid black;
-    border-top: none;
-    border-bottom: none;
-    border-right: none; */
-
     text-align: center;
     margin: 0;
     background-color: #830Ce8;
@@ -105,7 +87,6 @@
     float: right;
     border: 5px solid black;
     border-top: none;
-    /* border-bottom: none; */
 }
 #content h1{
     background-color: #ddd;
@@ -146,7 +127,7 @@
     height: 50px;
     width: 200px;
     margin-top: 15px;
-    color: #830CE8;
+    color: #5C08A6;
     background-color: orange;
     font-size: 16px;
     border: 1px solid black;
@@ -157,7 +138,6 @@
 #appointments{
     margin-top: 15px;
     height: 150px;
-    /* text-align: center; */
 }
 
 .appointment{
@@ -165,6 +145,18 @@
     width: 40%;
     margin: 0 20px;
     float: left;
+}
+
+#cancel-appointment{
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    color: #5C08A6;
+    background-color: orange;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 label{

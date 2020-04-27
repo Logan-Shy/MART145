@@ -1,0 +1,40 @@
+#portfolios{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio{
+    margin: 20px 0 40px 0;
+    border-top: 5px solid black;
+}
+
+#add-portfolio{
+    height: 50px;
+    width: 200px;
+    margin: 15px auto; 
+    color: #5C08A6;
+    background-color: orange;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#portfolio_1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px auto;
+    border-top: 5px solid black;
+}
+
+#stats{
+    text-align: center;
+}
+#stats h2{
+    margin: 10px auto;
+    background-color: #ddd;
+}
+
+.statistic{
+    margin: 15px 5%;
+}
