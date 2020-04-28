@@ -1,6 +1,8 @@
 #Lsidebar {
+    text-align: center;
     margin: 0;
     background-color: #830CE8;
+    color: orange;
     height: 100%;
     width: 24%;
     float: left;
@@ -11,6 +13,7 @@
 }
 
 #Rsidebar {
+    text-align: center;
     margin: 0;
     background-color: orange;
     height: 100%;
