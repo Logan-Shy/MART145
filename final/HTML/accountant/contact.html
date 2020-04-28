@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="../../CSS/accountant.css">
     <link rel="stylesheet" href="../../CSS/global.css">
     <link rel="stylesheet" href="../../CSS/navigation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
     <title>Contact Accountants</title>
 </head>
     
@@ -100,7 +102,7 @@
                     <p>Accountant: Smitty</p>
                     <p>Where: 217 N Lawyer Ave. Unit K</p>
                     <p>Accountant Notes: Bring tax return from 2015</p>
-                    <button id="cancel-appointment">Cancel Appointment</button>
+                    <button class="cancel-appointment">Cancel Appointment</button>
                 </div>
                 <div class="appointment">
                     <p>When: March 25th, 3:00 P.M.</p>
@@ -108,7 +110,7 @@
                     <p>Accountant: Karl</p>
                     <p>Where: 1131 S. Lincoln St.</p>
                     <p>Accountant Notes: Don't forget to bring your wife</p>
-                    <button id="cancel-appointment">Cancel Appointment</button>
+                    <button class="cancel-appointment">Cancel Appointment</button>
                 </div>
             </div>
         </div>
@@ -116,22 +118,22 @@
             <ul>
                 <li>
                     <label for="datepicker">When</label>
-                    <input type="date" name="datepicker" class="appt-input">
+                    <input type="date" id="datepicker" class="appt-input">
                 </li>
     
                 <li>
                     <label for="subject">Subject</label>
-                    <input type="text" name="subject" class="appt-input">
+                    <input type="text" id="subject" class="appt-input">
                 </li>
     
                 <li>
                     <label for="accountant">ACCT.</label>
-                    <input type="text" name="accountant" class="appt-input">
+                    <input type="text" id="accountant" class="appt-input">
                 </li>
     
                 <li>
                     <label for="where">Where</label>
-                    <input type="text" name="where" class="appt-input">
+                    <input type="text" id="where" class="appt-input">
                 </li>
     
             </ul>

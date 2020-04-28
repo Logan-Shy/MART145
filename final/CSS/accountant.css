@@ -147,7 +147,7 @@
     float: left;
 }
 
-#cancel-appointment{
+.cancel-appointment{
     height: 50px;
     width: 150px;
     margin-top: 15px;
